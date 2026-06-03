@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="shortcut icon" href="https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_200_200/B4EZmhegXHGcAM-/0/1759350753990/google_logo?e=2147483647&v=beta&t=Hzaw0d0Yz1Yi-_mDuQ6JQo-Ph41AG50Z8pWjyaeTI0k" type="image/x-icon">
+</head>
+<body>
+    
+    <form action="" method="post">
+        
+        <label for="fname">First Name</label>
+        <input type="text" name="fname" id="fname" placeholder="firstname" required>
+        <br><br>
+        <label for="">Address</label>
+        <textarea name="useraddress" id="" minlength="5" maxlength="10" placeholder="Enter your address..."></textarea>
+        <br><br>
+        <label for="useremail">Email</label>
+        <input type="email" name="useremail" id="useremail" placeholder="Enter your email...">
+        <br><br>
+        <label for="">Password</label>
+        <input type="password" name="userpass" id="">
+        <br><br>
+        <label for="">DOB</label>
+        <input type="date" name="userdob" id="">
+        <br><br>
+        <label for="">Check-in Time</label>
+        <input type="time" name="checkintime" id="">
+        <br><br>
+        <label for="">Docs</label> 
+        <input type="file" name="userdocs" id="" multiple>
+        <br><br>
+        <label for="">Age</label>
+        <input type="number" name="userage" id="" max="60" min="18">
+        <br><br>
+        <label for="">Find</label>
+        <input type="search" name="usersearch" id="" placeholder="Search here...">
+        <br><br>
+        <label for="">Gender</label>
+        <input type="radio" name="gender" id="" value="male"><label for="">Male</label>
+        <input type="radio" name="gender" id="" value="female"><label for="">Female</label>
+        <input type="radio" name="gender" id="" value="other"><label for="">Others</label>
+        <br><br>
+
+        <label for="">Subject</label>
+        <input type="checkbox" name="s1" id="" value="html" checked><label for="">Html</label>
+        <input type="checkbox" name="s1" id="" value="css"><label for="">Css</label>
+        <input type="checkbox" name="s1" id="" value="js"><label for="">Js</label>
+        <br><br>
+
+        <label for="">Cars</label>
+        <select name="dropdown" id="">
+            <option value="bmw">Bmw</option>
+            <option value="honda">Honda</option>
+            <option value="virtus">Virtus</option>
+            <option value="mg">MG</option>
+        </select>
+
+        <input type="button" value="Home">
+        
+        <input type="reset" value="Clear">
+
+        <input type="submit" value="Save">
+
+    </form>
+
+</body>
+</html>
