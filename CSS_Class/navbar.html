@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .navbar{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: palevioletred;
+            color: white;
+            padding: 15px 40px;
+            position: fixed;
+            top: 0px;
+            width: 100%;
+        }
+
+        .logo{
+            font-size: 25px;
+            font-weight: bold;
+            color: black;
+        }
+
+        .nav-links{
+            list-style-type: none;
+            display: flex;
+            gap: 40px;
+        }
+
+        .nav-links a{
+            text-decoration: none;
+            color: white;
+            font-weight: 600;
+        }
+
+        .btn{
+            background-color: green;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+
+        .btn:hover{
+            background-color: rgb(0, 92, 0);
+        }
+
+        .nav-links a:hover{
+            color: black;
+        }
+
+        p{
+            margin: 120px;
+            color: brown;
+            font-size: 30px;
+        }
+
+        @media (max-width: 760px){
+            p{
+                color: green;
+            }
+
+            .navbar{
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .nav-links{
+                flex-direction: column;
+                gap: 15px;
+                align-items: center;
+            }
+        }
+
+        .box{
+            background-color: gray;
+            width: 200px;
+            height: 200px;
+            box-shadow: 2px 3px 7px black;
+            /* margin: 10px; */
+
+            /* Static */
+
+            /* position: static;
+                top: 20px;
+                left: 100px; */
+
+            /* Relative */
+
+            /* position: relative;
+                top: 30px;
+                left: 400px; */
+
+            /* Absolute */
+
+            /* position: absolute;
+                top: 10px;
+                left: 200px; */
+        }
+
+        /* .newbox{
+                background-color: bisque;
+                border: 2px solid green;
+                width: 400px;
+                height: 400px;
+                margin: auto;
+                position: relative;
+          }
+
+          .child{
+                background-color: brown;
+                width: 80px;
+                height: 80px;
+                border: 4px solid black;
+                position: absolute;
+                top: 90px;
+                left: 300px;
+          } */
+
+        .sticker{
+            background-color: gray;
+            width: 30px;
+            height: 200px;
+            position: fixed;
+            top: 300px;
+            right: 0px;
+        }
+
+        .container{
+            width: 100%;
+            height: 50px;
+            background-color: green;
+            position: sticky;
+            top: 70px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">SkillWaala</div>
+            <ul class="nav-links">
+                <li><a href="">Home</a></li>
+                <li><a href="">Courses</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+            <button class="btn">Login</button>
+    </nav>
+
+    <div class="sticker"></div>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
+        molestias doloremque quod, officia eveniet mollitia ipsum suscipit
+        inventore? Omnis, laboriosam placeat qui itaque fugiat et est dicta
+        voluptatum doloribus, quis praesentium molestiae blanditiis modi officiis
+        quod dignissimos voluptatem harum nostrum ea? Rem, corporis odio. Incidunt
+        illo commodi veniam obcaecati laboriosam. Dolor quas animi praesentium?
+        Nam, asperiores ullam dolorum exercitationem provident nemo incidunt
+        distinctio ex eum numquam. Numquam nesciunt cumque enim facere, eaque quod
+        culpa pariatur cum maxime similique et autem est, voluptates illo
+        mollitia. Similique, voluptatum deleniti beatae harum, tenetur natus qui
+        itaque hic aut dolorem doloribus. Repellendus eius placeat fugit animi sit
+        ut adipisci unde delectus quia dolorum nostrum laboriosam eum, tempora,
+        voluptatum incidunt praesentium iure nesciunt, impedit magni deleniti?
+        Natus officiis sed at ad et veniam? Magnam maxime esse deleniti laborum
+        quisquam, illo suscipit ad repudiandae architecto expedita possimus
+        consequatur, sit fugit beatae vel saepe ex, corporis similique sed.
+        Officia nisi mollitia corporis ea numquam nesciunt harum quibusdam, a
+        itaque reprehenderit ex. Architecto veniam enim, perspiciatis voluptate
+        dignissimos quo eligendi, numquam soluta autem nihil libero quaerat, id
+        facilis cum error voluptatum consequuntur odio itaque quasi ut maiores
+        atque laborum fugiat? Quisquam amet eius soluta temporibus, ratione
+        consectetur, quis quae possimus provident exercitationem atque, odit iure
+        adipisci dignissimos quam magni praesentium corporis voluptatibus optio
+        ab. Accusamus facere repellendus officiis nisi exercitationem. Natus, nam
+        reprehenderit, eos est culpa provident nihil minus aspernatur porro, eius
+        suscipit voluptates excepturi quam sapiente expedita labore. At incidunt
+        maiores fugit consectetur quaerat quod laudantium voluptatum, minima, quam
+        suscipit sunt voluptate quibusdam aspernatur nobis repudiandae nihil quos
+        doloribus voluptatem quasi fuga. Vel sint cupiditate consectetur, dolorem
+        velit ipsum sed nulla inventore, deleniti blanditiis optio! Quis fuga vel,
+        delectus tenetur voluptas voluptate dolorem qui nulla quae autem
+        perspiciatis, nihil, beatae incidunt voluptatibus laborum eveniet est
+        corporis doloremque?
+    </p>
+
+    <div class="container"></div>
+
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor saepe
+        harum culpa id inventore beatae nostrum iure sed, maiores labore aut
+        numquam tempora. Delectus quibusdam reprehenderit aliquid corrupti eveniet
+        cumque necessitatibus facilis nihil provident ipsa expedita labore libero
+        minus eos eum, modi adipisci in voluptate, maxime consequatur doloribus
+        fugiat nobis vitae? Nihil, aliquid iusto, provident at asperiores deleniti
+        ex quasi aut facilis maiores, fugit voluptate soluta. Aspernatur eum
+        magnam repudiandae dolorum placeat deserunt quam fuga hic cum ullam iusto
+        temporibus vitae expedita, et pariatur debitis laborum, tenetur magni
+        omnis laboriosam illo? Tenetur vero nam a aperiam inventore, repellendus
+        aliquid exercitationem? Lorem ipsum dolor sit, amet consectetur
+        adipisicing elit. Velit esse incidunt amet, assumenda ab aliquam dolorum
+        minima voluptate beatae cum earum eius repellendus enim expedita dicta.
+        Dolorum nam quos voluptate omnis accusamus adipisci quaerat ex molestias
+        ipsam doloribus. Animi alias at distinctio odit tempora consectetur est
+        nobis aliquam aliquid placeat explicabo optio in ad doloremque iste
+        voluptate cupiditate, error enim quibusdam eos quidem quis totam illum!
+        Amet a itaque animi? Suscipit consequuntur sint fugiat ratione in ex ad,
+        quo animi, temporibus saepe ab atque mollitia deserunt, quidem sed eos
+        voluptatem corporis sunt fugit odit distinctio. Consequuntur commodi ipsum
+        ipsa voluptatum!
+    </p>
+
+    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia quo eos suscipit laboriosam aperiam similique, dignissimos deserunt! Recusandae, officiis atque non cum ab libero asperiores minus vitae eius. Perspiciatis, aspernatur?</p> -->
+
+    <!-- <div class="box"></div>
+
+    <div class="newbox">
+        <div class="child"></div>
+    </div> -->
+</body>
+</html>
